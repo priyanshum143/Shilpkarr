@@ -1,0 +1,26 @@
+// Project data for Work page. Edit titles, descriptions, and categories to match your work.
+// category: use a single string (e.g. 'residential') or an array to show in multiple filters (e.g. ['residential', 'exterior']).
+const PROJECTS = [
+  { id: 1, title: 'Classic Residence', description: 'A timeless residential design blending traditional elements with modern comfort.', category: 'residential', image: '../compressed_photos/IMG_0226.JPG.jpeg' },
+  { id: 2, title: 'Modern Villa', description: 'Contemporary villa with clean lines and expansive living spaces.', category: ['residential', 'exterior'], image: '../compressed_photos/IMG_1935.JPG.jpeg' },
+  { id: 3, title: 'Luxury Home', description: 'Elegant luxury home with attention to detail and premium finishes.', category: 'residential', image: '../compressed_photos/IMG_2926.JPG.jpeg' },
+  { id: 4, title: 'Family Residence', description: 'Spacious family home designed for comfort and functionality.', category: 'residential', image: '../compressed_photos/IMG_2930.JPG.jpeg' },
+  { id: 5, title: 'Courtyard House', description: 'Residential project centered around a private courtyard for natural light and ventilation.', category: ['residential', 'exterior'], image: '../compressed_photos/IMG_2932.JPG.jpeg' },
+  { id: 6, title: 'Contemporary Abode', description: 'Modern residential design with open-plan living and outdoor integration.', category: 'residential', image: '../compressed_photos/IMG_2933.JPG.jpeg' },
+  { id: 7, title: 'Living Room Design', description: 'Warm and inviting living space with custom furniture and lighting.', category: 'interior', image: '../compressed_photos/IMG_2934.JPG.jpeg' },
+  { id: 8, title: 'Master Bedroom', description: 'Serene master bedroom with premium materials and thoughtful layout.', category: 'interior', image: '../compressed_photos/IMG_2937.JPG.jpeg' },
+  { id: 9, title: 'Interior Suite', description: 'Complete interior design for a private suite with cohesive aesthetics.', category: 'interior', image: '../compressed_photos/IMG_2951.JPG.jpeg' },
+  { id: 10, title: 'Luxury Bathroom', description: 'Spa-like bathroom with modern fixtures and elegant finishes.', category: 'interior', image: '../compressed_photos/IMG_2960.JPG.jpeg' },
+  { id: 11, title: 'Kitchen & Dining', description: 'Functional and stylish kitchen and dining area for modern living.', category: 'interior', image: '../compressed_photos/IMG_2961.JPG.jpeg' },
+  { id: 12, title: 'Interior Detailing', description: 'Refined interior detailing and material selection for a cohesive look.', category: 'interior', image: '../compressed_photos/IMG_2962.JPG.jpeg' },
+  { id: 13, title: 'Office Interior', description: 'Professional office space designed for productivity and comfort.', category: 'commercial', image: '../compressed_photos/IMG_2963.JPG.jpeg' },
+  { id: 14, title: 'Retail Space', description: 'Commercial retail design with strong brand identity and flow.', category: 'commercial', image: '../compressed_photos/IMG_2964.JPG.jpeg' },
+  { id: 15, title: 'Commercial Building', description: 'Multi-purpose commercial building with flexible floor plans.', category: ['commercial', 'exterior'], image: '../compressed_photos/IMG_2965.JPG.jpeg' },
+  { id: 16, title: 'Corporate Office', description: 'Corporate office interior with modern workstations and meeting areas.', category: 'commercial', image: '../compressed_photos/IMG_9311.JPG.jpeg' },
+  { id: 17, title: 'Commercial Facade', description: 'Striking commercial facade combining aesthetics with functionality.', category: ['commercial', 'exterior'], image: '../compressed_photos/IMG_9312.JPG.jpeg' },
+  { id: 18, title: 'Showroom', description: 'Elegant showroom design to showcase products and attract clients.', category: 'commercial', image: '../compressed_photos/IMG_9313.JPG.jpeg' },
+  { id: 19, title: 'Exterior Elevation', description: 'Residential exterior with strong architectural character.', category: ['residential', 'exterior'], image: '../compressed_photos/IMG_9315.JPG.jpeg' },
+  { id: 20, title: 'Building Exterior', description: 'Clean exterior design with balanced proportions and material palette.', category: 'exterior', image: '../compressed_photos/IMG_9446.JPG.jpeg' },
+  { id: 21, title: 'Villa Exterior', description: 'Grand villa exterior with landscaping and outdoor living spaces.', category: ['residential', 'exterior'], image: '../compressed_photos/IMG_9451.JPG.jpeg' },
+  { id: 22, title: 'Facade Detail', description: 'Detailed facade design highlighting form and materiality.', category: 'exterior', image: '../compressed_photos/IMG_9528.JPG.jpeg' },
+];
