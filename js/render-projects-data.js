@@ -86,16 +86,6 @@ var RENDER_PROJECTS = [
     ],
   },
   {
-    slug: 'misc-elevations',
-    title: 'Miscellaneous elevations',
-    tag: 'Exterior studies',
-    folder: 'Misc Elevations',
-    shortDescription: 'Mixed façade and massing studies — residences and multi-storey blocks.',
-    description:
-      'A collection of independent elevation and view renders: individual residences and stacked-floor concepts. Use this gallery to browse form, balcony rhythm, and rooflines across different briefs.',
-    images: ['abhishek residence.webp', 'elevation.webp', 's+4-1.webp', 's+4-2.webp', 'view-1.webp'],
-  },
-  {
     slug: 'panipat-office-interior',
     title: 'Panipat — Office interior',
     tag: 'Commercial',
@@ -114,6 +104,16 @@ var RENDER_PROJECTS = [
     description:
       'Bedroom interior renders for a 400-yard house in Sirsa. The images explore alternate moods for sleeping zones while keeping Vastu and practical storage in mind. Suitable for client selection of palettes and soft furnishings.',
     images: ['Bedroom-1 (1).jpg', 'Bedroom-1 (2).jpg', 'Bedroom-1 (3).jpg', 'Bedroom-2 (1).jpg', 'Bedroom-2 (2).jpg'],
+  },
+  {
+    slug: 'misc-elevations',
+    title: 'Miscellaneous elevations',
+    tag: 'Exterior studies',
+    folder: 'Misc Elevations',
+    shortDescription: 'Mixed façade and massing studies — residences and multi-storey blocks.',
+    description:
+      'A collection of independent elevation and view renders: individual residences and stacked-floor concepts. Use this gallery to browse form, balcony rhythm, and rooflines across different briefs.',
+    images: ['abhishek residence.webp', 'elevation.webp', 's+4-1.webp', 's+4-2.webp', 'view-1.webp'],
   },
 ];
 
