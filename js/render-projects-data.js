@@ -19,6 +19,23 @@ var RENDER_PROJECTS = [
     images: ['Elevation-1.jpg'],
   },
   {
+    slug: 'sirsa-residence-400-yard',
+    title: 'Sirsa Residence — 400 Yard',
+    tag: 'Residential interior',
+    folder: 'Sirsa Residence 400 Yard',
+    shortDescription: 'Two bedroom schemes for a Sirsa home — comfort, storage, and light.',
+    description:
+      'Bedroom interior renders for a 400-yard house in Sirsa. The images explore alternate moods for sleeping zones while keeping Vastu and practical storage in mind. Suitable for client selection of palettes and soft furnishings.',
+    images: [
+      'IMG_9451.JPG.jpeg',
+      'Bedroom-1 (1).jpg',
+      'Bedroom-1 (2).jpg',
+      'Bedroom-1 (3).jpg',
+      'Bedroom-2 (1).jpg',
+      'Bedroom-2 (2).jpg',
+    ],
+  },
+  {
     slug: 'ags-motors-office',
     title: 'AGS Motors Office',
     tag: 'Commercial',
@@ -94,16 +111,6 @@ var RENDER_PROJECTS = [
     description:
       'Panipat office interior renders focused on the main open office: seating clusters, circulation, ceiling, and daylight. Intended for stakeholder sign-off and as a reference for MEP and furniture vendors.',
     images: ['Main Office (1).webp', 'Main Office (2).webp', 'Main Office (3).webp', 'Main Office (4).webp'],
-  },
-  {
-    slug: 'sirsa-residence-400-yard',
-    title: 'Sirsa Residence — 400 Yard',
-    tag: 'Residential interior',
-    folder: 'Sirsa Residence 400 Yard',
-    shortDescription: 'Two bedroom schemes for a Sirsa home — comfort, storage, and light.',
-    description:
-      'Bedroom interior renders for a 400-yard house in Sirsa. The images explore alternate moods for sleeping zones while keeping Vastu and practical storage in mind. Suitable for client selection of palettes and soft furnishings.',
-    images: ['Bedroom-1 (1).jpg', 'Bedroom-1 (2).jpg', 'Bedroom-1 (3).jpg', 'Bedroom-2 (1).jpg', 'Bedroom-2 (2).jpg'],
   },
   {
     slug: 'misc-elevations',
