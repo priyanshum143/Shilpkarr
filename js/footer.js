@@ -29,7 +29,7 @@
           '<p><strong>Office 1:</strong> Hisar Rd, near Bajaj Sweets, Khanna Colony, Sirsa, Haryana 125055</p>' +
           '<p><strong>Office 2:</strong> 3rd Floor, Mehta Tower, Gurudowara Road, Model Town, Hisar, Haryana 125005</p>' +
           '<p><strong>Office 3:</strong> 259, New Sukhdev Nagar, Panipat, Haryana 132103</p>' +
-          '<p><strong>Email:</strong> <a href="mailto:shilpkarr@gmail.com">shilpkarr@gmail.com</a></p>' +
+          '<p><strong>Email:</strong> <a href="mailto:shilpkarr27@gmail.com">shilpkarr27@gmail.com</a></p>' +
         '</div>' +
       '</div>' +
       '<div class="footer-bottom">' +
