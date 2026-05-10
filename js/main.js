@@ -262,21 +262,6 @@
       return /\.jpe?g/i.test(lower);
     }
 
-    // Portrait assets — omit from home hero slideshow (landscape frame).
-    var slideshowExcludePortrait = [
-      'IMG_0226.JPG.jpeg',
-      'IMG_1935.JPG.jpeg',
-      'IMG_9446.JPG.jpeg'
-    ];
-
-    function isSlideshowExcludedPortrait(src) {
-      if (!src) return false;
-      var lower = src.toLowerCase();
-      return slideshowExcludePortrait.some(function (file) {
-        return lower.indexOf(file.toLowerCase()) !== -1;
-      });
-    }
-
     var slides = PROJECTS.map(function (p) {
       var fallbackSrc = (p.image || '').replace(/^\.\.\//, '');
       if (!fallbackSrc) return null;
@@ -287,7 +272,7 @@
     })
       .filter(Boolean)
       .filter(function (s) {
-        return isSlideshowPhotoPath(s.src) && !isSlideshowExcludedPortrait(s.src);
+        return isSlideshowPhotoPath(s.src);
       });
 
     function projectPath(p) {
