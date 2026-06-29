@@ -10,7 +10,7 @@ function renderProjectImageUrl(folder, file) {
 var RENDER_PROJECTS = [
   {
     slug: '1200-yard-mohali',
-    title: '1200 Yard — Mohali',
+    title: '1200 Sq. Yard — Mohali',
     tag: 'Residential',
     folder: '1200 Yard Mohali',
     shortDescription: 'Large-format residential elevation and façade study for a spacious Mohali plot.',
@@ -20,12 +20,12 @@ var RENDER_PROJECTS = [
   },
   {
     slug: 'sirsa-residence-400-yard',
-    title: 'Sirsa Residence — 400 Yard',
+    title: 'Sirsa Residence — 400 Sq. Yard',
     tag: 'Residential interior',
     folder: 'Sirsa Residence 400 Yard',
     shortDescription: 'Two bedroom schemes for a Sirsa home — comfort, storage, and light.',
     description:
-      'Bedroom interior renders for a 400-yard house in Sirsa. The images explore alternate moods for sleeping zones while keeping Vastu and practical storage in mind. Suitable for client selection of palettes and soft furnishings.',
+      'Bedroom interior renders for a 400 sq. yard house in Sirsa. The images explore alternate moods for sleeping zones while keeping Vastu and practical storage in mind. Suitable for client selection of palettes and soft furnishings.',
     images: [
       'IMG_9451.JPG.jpeg',
       'Bedroom-1 (1).jpg',
@@ -85,12 +85,12 @@ var RENDER_PROJECTS = [
   },
   {
     slug: 'hisar-residence-500-yard',
-    title: 'Hisar Residence — 500 Yard',
+    title: 'Hisar Residence — 500 Sq. Yard',
     tag: 'Residential interior',
     folder: 'Hisar Residence 500 Yard',
     shortDescription: 'Bedrooms and dresser areas for a large Hisar home — materials and lighting studies.',
     description:
-      'Interior visualisation for a 500-yard residence in Hisar, covering primary and secondary bedrooms plus detailed dresser zones. The set is ideal for locking joinery details, wall finishes, and wardrobe integration ahead of site work.',
+      'Interior visualisation for a 500 sq. yard residence in Hisar, covering primary and secondary bedrooms plus detailed dresser zones. The set is ideal for locking joinery details, wall finishes, and wardrobe integration ahead of site work.',
     images: [
       'Bedroom-1 (1).jpg',
       'Bedroom-1 (2).jpg',
@@ -101,6 +101,16 @@ var RENDER_PROJECTS = [
       'Dresser (3).jpg',
       'Dresser (4).jpg',
     ],
+  },
+  {
+    slug: 'hanumangrah-residential-interior',
+    title: 'Hanumangrah Residential interior',
+    tag: 'Residential interior',
+    folder: 'Hanumangrah Residential Interior',
+    shortDescription: 'Living and dining interiors for a Hanumangrah home — warm neutrals, wood, and stone.',
+    description:
+      'Residential interior renders for a home in Hanumangrah. The living area pairs a textured TV wall, wood joinery, and soft seating with layered ceiling lighting. The dining zone combines a stone feature wall with greenery, marble flooring, and a statement chandelier — intended for client sign-off on finishes and furniture before execution.',
+    images: ['3F.jpg', '4F.jpg', '1F.jpg', '2F.jpg'],
   },
   {
     slug: 'panipat-office-interior',

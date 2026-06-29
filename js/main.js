@@ -318,6 +318,28 @@
 
     slides = ordered;
 
+    function homeRenderImageUrl(folder, file) {
+      return 'compressed_renders/' + encodeURIComponent(folder) + '/' + encodeURIComponent(file);
+    }
+
+    if (typeof getRenderProjectBySlug === 'function') {
+      var featuredRender = getRenderProjectBySlug('hanumangrah-residential-interior');
+      if (featuredRender && featuredRender.images && featuredRender.folder) {
+        var renderSlides = featuredRender.images
+          .map(function (file) {
+            return {
+              src: homeRenderImageUrl(featuredRender.folder, file),
+              alt: (featuredRender.title || 'Project') + ' — Shilpkarr',
+            };
+          })
+          .filter(function (s) {
+            return isSlideshowPhotoPath(s.src);
+          });
+        var insertAt = heroSlide ? 1 : 0;
+        slides.splice.apply(slides, [insertAt, 0].concat(renderSlides));
+      }
+    }
+
     var slideImgs = slideshowInner.querySelectorAll('.featured-slide');
     var carousel = document.querySelector('.featured-slideshow-carousel');
     var btnPrev = carousel ? carousel.querySelector('.featured-slideshow-nav--prev') : null;
